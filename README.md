@@ -50,14 +50,11 @@
     </style>
 </head>
 <body>
-    <a href="https://www.ejemplo1.com" class="image-link">
-        <img src="foto 001.gif" alt="Descripción de la imagen 1">
-    </a>
     <a href="https://www.ejemplo2.com" class="image-link">
         <img src="foto 002.gif" alt="Descripción de la imagen 2">
     </a>
     <a href="foto 003.gif" class="image-link">
-        <img src="ruta/a/tu/imagen3.jpg" alt="Descripción de la imagen 3">
+        <img src="foto 003.gif" alt="Descripción de la imagen 3">
     </a>
 </body>
 </html>
