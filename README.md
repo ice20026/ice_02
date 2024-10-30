@@ -6,7 +6,7 @@
     <title>Imagen de Fondo</title>
     <style>
         body {
-            background-image: url('fondo n1 .jpg'); /* Imagen de fondo */
+            background-image: url('fondo n1.jpg'); /* Imagen de fondo */
             background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
             background-position: center; /* Centra la imagen */
             background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -50,10 +50,10 @@
     </style>
 </head>
 <body>
-    <a href="https://www.ejemplo2.com" class="image-link">
+    <a href="https://ice20026.github.io/web-001/" class="image-link">
         <img src="foto 002.gif" alt="Descripción de la imagen 2">
     </a>
-    <a href="foto 003.gif" class="image-link">
+    <a href="https://ice20026.github.io/web-003/" class="image-link">
         <img src="foto 003.gif" alt="Descripción de la imagen 3">
     </a>
 </body>
