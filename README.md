@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -26,7 +26,9 @@
 </html>
 
 
-<!DOCTYPE html>
+
+
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -50,7 +52,7 @@
     </style>
 </head>
 <body>
-    <a href="https://ice20026.github.io/web-001/" class="image-link">
+    <a href="https://ice20026.github.io/web-003/" class="image-link">
         <img src="foto 002.gif" alt="Descripción de la imagen 2">
     </a>
     <a href="https://ice20026.github.io/web-003/" class="image-link">
@@ -58,4 +60,37 @@
     </a>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botón de Retroceso</title>
+    <style>
+        .back-button {
+            font-size: 16px; /* Tamaño del texto */
+            padding: 10px 20px; /* Espaciado interno del botón */
+            color: white; /* Color del texto */
+            background-color: #007BFF; /* Color de fondo */
+            border: none; /* Sin borde */
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+        }
+        .back-button:hover {
+            background-color: #0056b3; /* Color de fondo al pasar el ratón */
+        }
+    </style>
+</head>
+<body>
+    <button class="https://ice20026.github.io/web-001/" onclick="goBack()">atras</button>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
+
 
