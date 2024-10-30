@@ -6,7 +6,7 @@
     <title>Imagen de Fondo</title>
     <style>
         body {
-            background-image: url('fondo .jpg'); /* Imagen de fondo */
+            background-image: url('fondo n1 .jpg'); /* Imagen de fondo */
             background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
             background-position: center; /* Centra la imagen */
             background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -24,3 +24,41 @@
     <p></p>
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imágenes con Hipervínculo</title>
+    <style>
+        .image-link {
+            display: inline-block; /* Hace que el enlace se comporte como un bloque */
+            margin: 10px; /* Espacio entre imágenes */
+        }
+        .image-link img {
+            max-width: 100%; /* Ajusta el tamaño de la imagen al contenedor */
+            height: auto; /* Mantiene la proporción de la imagen */
+            border-radius: 10px; /* Bordes redondeados */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade sombra a la imagen */
+            transition: transform 0.2s; /* Efecto de transición */
+        }
+        .image-link img:hover {
+            transform: scale(1.05); /* Escala la imagen al pasar el ratón */
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.ejemplo1.com" class="image-link">
+        <img src="foto 001.gif" alt="Descripción de la imagen 1">
+    </a>
+    <a href="https://www.ejemplo2.com" class="image-link">
+        <img src="foto 002.gif" alt="Descripción de la imagen 2">
+    </a>
+    <a href="foto 003.gif" class="image-link">
+        <img src="ruta/a/tu/imagen3.jpg" alt="Descripción de la imagen 3">
+    </a>
+</body>
+</html>
+
