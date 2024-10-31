@@ -63,18 +63,25 @@
     </a>
 
 
-    
-</body>
-</html>
 
 
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Botón de Retroceso</title>
+    <title>Botón con Hipervínculo</title>
     <style>
-        .back-button {
+        .btn {
+            display: inline-block; /* Para que el enlace se comporte como botón */
             font-size: 16px; /* Tamaño del texto */
             padding: 10px 20px; /* Espaciado interno del botón */
             color: white; /* Color del texto */
@@ -82,21 +89,16 @@
             border: none; /* Sin borde */
             border-radius: 5px; /* Bordes redondeados */
             cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-        }
-        .back-button:hover {
+            text-align: center; /* Centra el texto */
+            text-decoration: none; /* Quita el subrayado del enlace */
+            margin: 10px; /* Espacio entre botones */
+      }
+        .btn:hover {
             background-color: #0056b3; /* Color de fondo al pasar el ratón */
         }
     </style>
 </head>
 <body>
-    <button class="https://ice20026.github.io/web-001/" onclick="goBack()">atras</button>
-
-    <script>
-        function goBack() {
-            window.history.back();
-        }
-    </script>
+    <a href="https://www.ejemplo.com" class="btn">atras</a>
 </body>
 </html>
-
-
