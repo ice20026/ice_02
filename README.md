@@ -99,6 +99,6 @@
     </style>
 </head>
 <body>
-    <a href="https://www.ejemplo.com" class="btn">atras</a>
+    <a href="https://ice20026.github.io/web-001/" class="btn">atras</a>
 </body>
 </html>
