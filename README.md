@@ -62,7 +62,9 @@
         <img src="foto 004.gif" alt="Descripción de la imagen 3">
     </a>
 
-
+ <a href="https://ice20026.github.io/web-003/" class="image-link">
+        <img src="foto 004.gif" alt="Descripción de la imagen 3">
+    </a>
 
 
 
