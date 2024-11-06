@@ -52,7 +52,7 @@
     </style>
 </head>
 <body>
-    <a href="https://ice20026.github.io/ice_03/" class="image-link">
+    <a href="https://ice20026.github.io/ice_blog_03/" class="image-link">
         <img src="foto 002.gif" alt="Descripción de la imagen 2">
     </a>
     <a href="https://ice20026.github.io/ice_03/" class="image-link">
