@@ -10,7 +10,7 @@
             background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
             background-position: center; /* Centra la imagen */
             background-repeat: no-repeat; /* Evita que la imagen se repita */
-            margin: 0;
+            margin: 800;
             font-family: Arial, sans-serif;
             color: white; /* Color del texto */
         }
