@@ -42,7 +42,9 @@
         .image-link img {
             max-width: 100%; /* Ajusta el tamaño de la imagen al contenedor */
             height: auto; /* Mantiene la proporción de la imagen */
-            border-radius: 10px; /* Bordes redondeados */
+width: 150px; /* Ancho de la imagen */ 
+            height: 100px; /* Alto de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade sombra a la imagen */
             transition: transform 0.2s; /* Efecto de transición */
         }
@@ -58,8 +60,6 @@
     <a href="https://ice20026.github.io/ice_03/" class="image-link">
         <img src="foto 003.gif" alt="Descripción de la imagen 3">
     </a>
-
-
 
 
  <a href="https://ice20026.github.io/tutoriales/" class="image-link">
