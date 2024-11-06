@@ -79,7 +79,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Botón con Hipervínculo</title>
     <style>
         .btn {
             display: inline-block; /* Para que el enlace se comporte como botón */
@@ -100,7 +99,7 @@
     </style>
 </head>
 <body>
-    <a href="https://ice20026.github.io/web-001/" class="btn">atras</a>
+    <a href="https://ice20026.github.io/ice_central/" class="btn">atras</a>
 </body>
 </html>
 
@@ -143,7 +142,7 @@
     </style>
 </head>
 <body>
-    <a href="https://ice20026.github.io/web-01/" class="btn">mas informacion </a>
+    <a href="https://ice20026.github.io/informacion/" class="btn">mas informacion </a>
 </body>
 </html>
 
